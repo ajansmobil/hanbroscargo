@@ -1,9 +1,9 @@
 
-  .uwuaamenulist-menu:hover .dropdown-content-uwuaa {
+  .dwnasmenulist-menu:hover .dropdown-content-dwnas {
     display: flex;
     flex-direction: column;
   }
-  .uwuaamenulist-menu {
+  .dwnasmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .uwuaamenulist-menu:hover {
+  .dwnasmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .uwuaamenulist-menu:hover > a {
+  .dwnasmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .uwuaamenulist-menu > a {
+  .dwnasmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-uwuaa {
+  .dropdown-content-active-dwnas {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-uwuaa > a {
+  .dropdown-content-active-dwnas > a {
     color: #000 !important;
   }
 
-  .dropdown-content-uwuaa {
+  .dropdown-content-dwnas {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-uwuaa > a {
+  .dropdown-content-dwnas > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-uwuaa > a:hover {
+  .dropdown-content-dwnas > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .uwuaabody {
+  .dwnasbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .uwuaabody > a {
+  .dwnasbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .uwuaa-title {
+  .dwnas-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .uwuaa-spot {
+  .dwnas-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .uwuaa-icon {
+  .dwnas-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .uwuaa {
+  .dwnas {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .uwuaatitle {
+  .dwnastitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .uwuaatitlebody {
+  .dwnastitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .uwuaatitlebodytitle {
+  .dwnastitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .uwuaatitlebodylang {
+  .dwnastitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .uwuaatitlebodylang ul {
+  .dwnastitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .uwuaatitlebodylang li {
+  .dwnastitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .uwuaamenu {
+  .dwnasmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .uwuaamenulist {
+  .dwnasmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .uwuaamenubody {
+  .dwnasmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .uwuaamenulist {
+  .dwnasmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .uwuaamenulistbody {
+  .dwnasmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .uwuaamenu {
+    .dwnasmenu {
       overflow-x: auto;
     }
-    .uwuaamenulist {
+    .dwnasmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .uwuaabody {
+    .dwnasbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .uwuaabody {
+    .dwnasbody {
       flex-direction: column;
       text-align: center;
     }
@@ -321,7 +321,7 @@
     justify-content: start;
   }
 
-  .y5bwr {
+  .ehkxy {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -329,7 +329,7 @@
     position: relative;
   }
 
-  .y5bwr-menu-btn {
+  .ehkxy-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -341,11 +341,11 @@
     align-items: center;
   }
 
-  .y5bwr-menu-btn i {
+  .ehkxy-menu-btn i {
     font-size: 20px;
   }
 
-  .y5bwr-menu {
+  .ehkxy-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -356,28 +356,28 @@
     float: left;
   }
 
-  .y5bwr-desc {
+  .ehkxy-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .y5bwr-menu > a {
+  .ehkxy-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .y5bwr-menu > .active,
-  .y5bwr-menu > a:hover {
+  .ehkxy-menu > .active,
+  .ehkxy-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .y5bwr-desc-menu {
+  .ehkxy-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -385,19 +385,19 @@
     border-radius: 5px;
   }
 
-  .y5bwr-desc-menu > div {
+  .ehkxy-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .y5bwr-desc-body {
+  .ehkxy-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .y5bwr-title {
+  .ehkxy-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -410,7 +410,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .y5bwr-title::before {
+  .ehkxy-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -425,44 +425,44 @@
     z-index: 1;
   }
 
-  .y5bwr-title span {
+  .ehkxy-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .y5bwr-body {
+  .ehkxy-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .y5bwr-img {
+  .ehkxy-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .y5bwr-img img {
+  .ehkxy-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .y5bwr-desc {
+    .ehkxy-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .y5bwr-menu-btn {
+    .ehkxy-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .y5bwr {
+    .ehkxy {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -471,17 +471,17 @@
       margin-top: 0px;
     }
 
-    .y5bwr-img {
+    .ehkxy-img {
       width: 100%;
     }
 
-    .y5bwr-body {
+    .ehkxy-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .y5bwr-menu {
+    .ehkxy-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -489,11 +489,11 @@
       display: none;
     }
 
-    .y5bwr-menu.active {
+    .ehkxy-menu.active {
       display: flex;
     }
 
-    .y5bwr-desc {
+    .ehkxy-desc {
       width: 100% !important;
       order: 2;
     }

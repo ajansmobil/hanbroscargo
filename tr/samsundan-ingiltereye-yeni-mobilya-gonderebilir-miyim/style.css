@@ -1,9 +1,9 @@
 
-  .mr7olmenulist-menu:hover .dropdown-content-mr7ol {
+  .nydepmenulist-menu:hover .dropdown-content-nydep {
     display: flex;
     flex-direction: column;
   }
-  .mr7olmenulist-menu {
+  .nydepmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .mr7olmenulist-menu:hover {
+  .nydepmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .mr7olmenulist-menu:hover > a {
+  .nydepmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .mr7olmenulist-menu > a {
+  .nydepmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-mr7ol {
+  .dropdown-content-active-nydep {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-mr7ol > a {
+  .dropdown-content-active-nydep > a {
     color: #000 !important;
   }
 
-  .dropdown-content-mr7ol {
+  .dropdown-content-nydep {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-mr7ol > a {
+  .dropdown-content-nydep > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-mr7ol > a:hover {
+  .dropdown-content-nydep > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .mr7olbody {
+  .nydepbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .mr7olbody > a {
+  .nydepbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .mr7ol-title {
+  .nydep-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .mr7ol-spot {
+  .nydep-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .mr7ol-icon {
+  .nydep-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .mr7ol {
+  .nydep {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .mr7oltitle {
+  .nydeptitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .mr7oltitlebody {
+  .nydeptitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .mr7oltitlebodytitle {
+  .nydeptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .mr7oltitlebodylang {
+  .nydeptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .mr7oltitlebodylang ul {
+  .nydeptitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .mr7oltitlebodylang li {
+  .nydeptitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .mr7olmenu {
+  .nydepmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .mr7olmenulist {
+  .nydepmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .mr7olmenubody {
+  .nydepmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .mr7olmenulist {
+  .nydepmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .mr7olmenulistbody {
+  .nydepmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .mr7olmenu {
+    .nydepmenu {
       overflow-x: auto;
     }
-    .mr7olmenulist {
+    .nydepmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .mr7olbody {
+    .nydepbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .mr7olbody {
+    .nydepbody {
       flex-direction: column;
       text-align: center;
     }
@@ -321,7 +321,7 @@
     justify-content: start;
   }
 
-  .bkcny {
+  .ujg7b {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -329,7 +329,7 @@
     position: relative;
   }
 
-  .bkcny-menu-btn {
+  .ujg7b-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -341,11 +341,11 @@
     align-items: center;
   }
 
-  .bkcny-menu-btn i {
+  .ujg7b-menu-btn i {
     font-size: 20px;
   }
 
-  .bkcny-menu {
+  .ujg7b-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -356,28 +356,28 @@
     float: left;
   }
 
-  .bkcny-desc {
+  .ujg7b-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .bkcny-menu > a {
+  .ujg7b-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .bkcny-menu > .active,
-  .bkcny-menu > a:hover {
+  .ujg7b-menu > .active,
+  .ujg7b-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .bkcny-desc-menu {
+  .ujg7b-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -385,19 +385,19 @@
     border-radius: 5px;
   }
 
-  .bkcny-desc-menu > div {
+  .ujg7b-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .bkcny-desc-body {
+  .ujg7b-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .bkcny-title {
+  .ujg7b-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -410,7 +410,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .bkcny-title::before {
+  .ujg7b-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -425,44 +425,44 @@
     z-index: 1;
   }
 
-  .bkcny-title span {
+  .ujg7b-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .bkcny-body {
+  .ujg7b-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .bkcny-img {
+  .ujg7b-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .bkcny-img img {
+  .ujg7b-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .bkcny-desc {
+    .ujg7b-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .bkcny-menu-btn {
+    .ujg7b-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .bkcny {
+    .ujg7b {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -471,17 +471,17 @@
       margin-top: 0px;
     }
 
-    .bkcny-img {
+    .ujg7b-img {
       width: 100%;
     }
 
-    .bkcny-body {
+    .ujg7b-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .bkcny-menu {
+    .ujg7b-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -489,11 +489,11 @@
       display: none;
     }
 
-    .bkcny-menu.active {
+    .ujg7b-menu.active {
       display: flex;
     }
 
-    .bkcny-desc {
+    .ujg7b-desc {
       width: 100% !important;
       order: 2;
     }

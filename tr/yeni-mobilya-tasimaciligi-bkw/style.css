@@ -1,9 +1,9 @@
 
-  .bhd4rmenulist-menu:hover .dropdown-content-bhd4r {
+  .nkt57menulist-menu:hover .dropdown-content-nkt57 {
     display: flex;
     flex-direction: column;
   }
-  .bhd4rmenulist-menu {
+  .nkt57menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .bhd4rmenulist-menu:hover {
+  .nkt57menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .bhd4rmenulist-menu:hover > a {
+  .nkt57menulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .bhd4rmenulist-menu > a {
+  .nkt57menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-bhd4r {
+  .dropdown-content-active-nkt57 {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-bhd4r > a {
+  .dropdown-content-active-nkt57 > a {
     color: #000 !important;
   }
 
-  .dropdown-content-bhd4r {
+  .dropdown-content-nkt57 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-bhd4r > a {
+  .dropdown-content-nkt57 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-bhd4r > a:hover {
+  .dropdown-content-nkt57 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .bhd4rbody {
+  .nkt57body {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .bhd4rbody > a {
+  .nkt57body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .bhd4r-title {
+  .nkt57-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .bhd4r-spot {
+  .nkt57-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .bhd4r-icon {
+  .nkt57-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .bhd4r {
+  .nkt57 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .bhd4rtitle {
+  .nkt57title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .bhd4rtitlebody {
+  .nkt57titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .bhd4rtitlebodytitle {
+  .nkt57titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .bhd4rtitlebodylang {
+  .nkt57titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .bhd4rtitlebodylang ul {
+  .nkt57titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .bhd4rtitlebodylang li {
+  .nkt57titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .bhd4rmenu {
+  .nkt57menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .bhd4rmenulist {
+  .nkt57menulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .bhd4rmenubody {
+  .nkt57menubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .bhd4rmenulist {
+  .nkt57menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .bhd4rmenulistbody {
+  .nkt57menulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .bhd4rmenu {
+    .nkt57menu {
       overflow-x: auto;
     }
-    .bhd4rmenulist {
+    .nkt57menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .bhd4rbody {
+    .nkt57body {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .bhd4rbody {
+    .nkt57body {
       flex-direction: column;
       text-align: center;
     }

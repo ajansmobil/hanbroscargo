@@ -1,9 +1,9 @@
 
-  .mztvwmenulist-menu:hover .dropdown-content-mztvw {
+  .pe78cmenulist-menu:hover .dropdown-content-pe78c {
     display: flex;
     flex-direction: column;
   }
-  .mztvwmenulist-menu {
+  .pe78cmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .mztvwmenulist-menu:hover {
+  .pe78cmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .mztvwmenulist-menu:hover > a {
+  .pe78cmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .mztvwmenulist-menu > a {
+  .pe78cmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-mztvw {
+  .dropdown-content-active-pe78c {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-mztvw > a {
+  .dropdown-content-active-pe78c > a {
     color: #000 !important;
   }
 
-  .dropdown-content-mztvw {
+  .dropdown-content-pe78c {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-mztvw > a {
+  .dropdown-content-pe78c > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-mztvw > a:hover {
+  .dropdown-content-pe78c > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .mztvwbody {
+  .pe78cbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .mztvwbody > a {
+  .pe78cbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .mztvw-title {
+  .pe78c-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .mztvw-spot {
+  .pe78c-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .mztvw-icon {
+  .pe78c-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .mztvw {
+  .pe78c {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .mztvwtitle {
+  .pe78ctitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .mztvwtitlebody {
+  .pe78ctitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .mztvwtitlebodytitle {
+  .pe78ctitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .mztvwtitlebodylang {
+  .pe78ctitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .mztvwtitlebodylang ul {
+  .pe78ctitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .mztvwtitlebodylang li {
+  .pe78ctitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .mztvwmenu {
+  .pe78cmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .mztvwmenulist {
+  .pe78cmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .mztvwmenubody {
+  .pe78cmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .mztvwmenulist {
+  .pe78cmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .mztvwmenulistbody {
+  .pe78cmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .mztvwmenu {
+    .pe78cmenu {
       overflow-x: auto;
     }
-    .mztvwmenulist {
+    .pe78cmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .mztvwbody {
+    .pe78cbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .mztvwbody {
+    .pe78cbody {
       flex-direction: column;
       text-align: center;
     }
@@ -321,7 +321,7 @@
     justify-content: start;
   }
 
-  .wul1e {
+  .rjgis {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -329,7 +329,7 @@
     position: relative;
   }
 
-  .wul1e-menu-btn {
+  .rjgis-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -341,11 +341,11 @@
     align-items: center;
   }
 
-  .wul1e-menu-btn i {
+  .rjgis-menu-btn i {
     font-size: 20px;
   }
 
-  .wul1e-menu {
+  .rjgis-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -356,28 +356,28 @@
     float: left;
   }
 
-  .wul1e-desc {
+  .rjgis-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .wul1e-menu > a {
+  .rjgis-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .wul1e-menu > .active,
-  .wul1e-menu > a:hover {
+  .rjgis-menu > .active,
+  .rjgis-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .wul1e-desc-menu {
+  .rjgis-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -385,19 +385,19 @@
     border-radius: 5px;
   }
 
-  .wul1e-desc-menu > div {
+  .rjgis-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .wul1e-desc-body {
+  .rjgis-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .wul1e-title {
+  .rjgis-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -410,7 +410,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .wul1e-title::before {
+  .rjgis-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -425,44 +425,44 @@
     z-index: 1;
   }
 
-  .wul1e-title span {
+  .rjgis-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .wul1e-body {
+  .rjgis-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .wul1e-img {
+  .rjgis-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .wul1e-img img {
+  .rjgis-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .wul1e-desc {
+    .rjgis-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .wul1e-menu-btn {
+    .rjgis-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .wul1e {
+    .rjgis {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -471,17 +471,17 @@
       margin-top: 0px;
     }
 
-    .wul1e-img {
+    .rjgis-img {
       width: 100%;
     }
 
-    .wul1e-body {
+    .rjgis-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .wul1e-menu {
+    .rjgis-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -489,11 +489,11 @@
       display: none;
     }
 
-    .wul1e-menu.active {
+    .rjgis-menu.active {
       display: flex;
     }
 
-    .wul1e-desc {
+    .rjgis-desc {
       width: 100% !important;
       order: 2;
     }

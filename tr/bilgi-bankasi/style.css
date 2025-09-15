@@ -1,9 +1,9 @@
 
-  .kaw1gmenulist-menu:hover .dropdown-content-kaw1g {
+  .cdzttmenulist-menu:hover .dropdown-content-cdztt {
     display: flex;
     flex-direction: column;
   }
-  .kaw1gmenulist-menu {
+  .cdzttmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .kaw1gmenulist-menu:hover {
+  .cdzttmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .kaw1gmenulist-menu:hover > a {
+  .cdzttmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .kaw1gmenulist-menu > a {
+  .cdzttmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-kaw1g {
+  .dropdown-content-active-cdztt {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-kaw1g > a {
+  .dropdown-content-active-cdztt > a {
     color: #000 !important;
   }
 
-  .dropdown-content-kaw1g {
+  .dropdown-content-cdztt {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-kaw1g > a {
+  .dropdown-content-cdztt > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-kaw1g > a:hover {
+  .dropdown-content-cdztt > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .kaw1gbody {
+  .cdzttbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .kaw1gbody > a {
+  .cdzttbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .kaw1g-title {
+  .cdztt-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .kaw1g-spot {
+  .cdztt-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .kaw1g-icon {
+  .cdztt-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .kaw1g {
+  .cdztt {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .kaw1gtitle {
+  .cdztttitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .kaw1gtitlebody {
+  .cdztttitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .kaw1gtitlebodytitle {
+  .cdztttitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .kaw1gtitlebodylang {
+  .cdztttitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .kaw1gtitlebodylang ul {
+  .cdztttitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .kaw1gtitlebodylang li {
+  .cdztttitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .kaw1gmenu {
+  .cdzttmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .kaw1gmenulist {
+  .cdzttmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .kaw1gmenubody {
+  .cdzttmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .kaw1gmenulist {
+  .cdzttmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .kaw1gmenulistbody {
+  .cdzttmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .kaw1gmenu {
+    .cdzttmenu {
       overflow-x: auto;
     }
-    .kaw1gmenulist {
+    .cdzttmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .kaw1gbody {
+    .cdzttbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .kaw1gbody {
+    .cdzttbody {
       flex-direction: column;
       text-align: center;
     }
@@ -317,11 +317,11 @@
   }
 
 
-  .xzec5head {
+  .wxp94head {
     width: var(--max);
   }
 
-  .xzec5 {
+  .wxp94 {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -329,14 +329,14 @@
     flex-direction: column;
   }
 
-  .xzec5body {
+  .wxp94body {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .xzec5bodyitem {
+  .wxp94bodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -345,19 +345,19 @@
     gap: 2px;
   }
 
-  .xzec5bodyitemimg {
+  .wxp94bodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .xzec5bodyitemimg img {
+  .wxp94bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .xzec5bodyitemtitle {
+  .wxp94bodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -366,14 +366,14 @@
     flex-direction: column;
   }
 
-  .xzec5bodyitemtitle > div {
+  .wxp94bodyitemtitle > div {
     display: flex;
     justify-content: space-between;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
 
-  .xzec5bodyitemspot {
+  .wxp94bodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -384,14 +384,14 @@
     align-items: center;
   }
 
-  .xzec5bodyitemspot > div {
+  .wxp94bodyitemspot > div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .xzec5body {
+    .wxp94body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -399,7 +399,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .xzec5body {
+    .wxp94body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

@@ -283,12 +283,12 @@
     {
       "index": 6,
       "name": "hizmetler Slider",
-      "path": "page-slider",
+      "path": "page-slider-5",
       "local": "body",
       "category": "page slider",
       "desing": {
         "page": "hizmetler",
-        "color": "#0455d8",
+        "color": "#006b64",
         "name": {
           "tr": "Hizmetlerimiz"
         },

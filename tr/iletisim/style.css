@@ -1,9 +1,9 @@
 
-  .lpz08menulist-menu:hover .dropdown-content-lpz08 {
+  .j73mdmenulist-menu:hover .dropdown-content-j73md {
     display: flex;
     flex-direction: column;
   }
-  .lpz08menulist-menu {
+  .j73mdmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .lpz08menulist-menu:hover {
+  .j73mdmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .lpz08menulist-menu:hover > a {
+  .j73mdmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .lpz08menulist-menu > a {
+  .j73mdmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-lpz08 {
+  .dropdown-content-active-j73md {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-lpz08 > a {
+  .dropdown-content-active-j73md > a {
     color: #000 !important;
   }
 
-  .dropdown-content-lpz08 {
+  .dropdown-content-j73md {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-lpz08 > a {
+  .dropdown-content-j73md > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-lpz08 > a:hover {
+  .dropdown-content-j73md > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .lpz08body {
+  .j73mdbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .lpz08body > a {
+  .j73mdbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .lpz08-title {
+  .j73md-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .lpz08-spot {
+  .j73md-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .lpz08-icon {
+  .j73md-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .lpz08 {
+  .j73md {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .lpz08title {
+  .j73mdtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lpz08titlebody {
+  .j73mdtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .lpz08titlebodytitle {
+  .j73mdtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .lpz08titlebodylang {
+  .j73mdtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .lpz08titlebodylang ul {
+  .j73mdtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .lpz08titlebodylang li {
+  .j73mdtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .lpz08menu {
+  .j73mdmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .lpz08menulist {
+  .j73mdmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .lpz08menubody {
+  .j73mdmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .lpz08menulist {
+  .j73mdmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .lpz08menulistbody {
+  .j73mdmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .lpz08menu {
+    .j73mdmenu {
       overflow-x: auto;
     }
-    .lpz08menulist {
+    .j73mdmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .lpz08body {
+    .j73mdbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .lpz08body {
+    .j73mdbody {
       flex-direction: column;
       text-align: center;
     }
@@ -317,7 +317,7 @@
   }
 
 
-  .cvuma {
+  .v4oet {
     width: var(--max);
     margin: 30px 0px 30px 0px;
     display: flex;
@@ -326,7 +326,7 @@
     gap: 20px;
   }
 
-  .cvumacontainerlist {
+  .v4oetcontainerlist {
     padding: 15px;
     display: flex;
     align-items: center;
@@ -340,14 +340,14 @@
     margin-bottom: 10px;
   }
 
-  .cvumacontainerlist:hover {
+  .v4oetcontainerlist:hover {
     background-color: --bgcolor--;
     border-bottom-color: #1e3046;
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   }
 
-  .cvumacontainerlist > div {
+  .v4oetcontainerlist > div {
     display: flex;
     align-items: center;
     font-size: 16px;
@@ -355,20 +355,20 @@
     font-weight: 500;
   }
 
-  .cvumacontainerlist > span {
+  .v4oetcontainerlist > span {
     font-size: 24px;
     color: #1e3046;
     min-width: 30px;
   }
 
-  .cvuma-container {
+  .v4oet-container {
     display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 20px;
   }
 
-  .cvuma-container-body {
+  .v4oet-container-body {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -397,7 +397,7 @@
     text-align: left;
   }
 
-  .cvuma-body {
+  .v4oet-body {
     width: calc(var(--max) - 40px);
     background-color: --bgcolor--;
     border: 1px solid #dedede;
@@ -431,12 +431,12 @@
   }
 
   @media screen and (max-width: 1024px) {
-    .cvuma-body {
+    .v4oet-body {
       width: 100%;
       padding: 15px;
     }
 
-    .cvuma-container-body {
+    .v4oet-container-body {
       padding: 15px;
     }
 
@@ -448,28 +448,28 @@
       font-size: 16px;
     }
 
-    .cvumacontainerlist {
+    .v4oetcontainerlist {
       padding: 12px;
       gap: 15px;
     }
 
-    .cvumacontainerlist > div {
+    .v4oetcontainerlist > div {
       font-size: 14px;
     }
 
-    .cvumacontainerlist > span {
+    .v4oetcontainerlist > span {
       font-size: 20px;
     }
   }
 
   @media screen and (max-width: 768px) {
-    .cvumacontainerlist {
+    .v4oetcontainerlist {
       flex-direction: column;
       text-align: center;
       gap: 10px;
     }
 
-    .cvumacontainerlist > div {
+    .v4oetcontainerlist > div {
       font-size: 13px;
     }
   }

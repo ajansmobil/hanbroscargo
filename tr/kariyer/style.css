@@ -1,9 +1,9 @@
 
-  .oillemenulist-menu:hover .dropdown-content-oille {
+  .bfquhmenulist-menu:hover .dropdown-content-bfquh {
     display: flex;
     flex-direction: column;
   }
-  .oillemenulist-menu {
+  .bfquhmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .oillemenulist-menu:hover {
+  .bfquhmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .oillemenulist-menu:hover > a {
+  .bfquhmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .oillemenulist-menu > a {
+  .bfquhmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-oille {
+  .dropdown-content-active-bfquh {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-oille > a {
+  .dropdown-content-active-bfquh > a {
     color: #000 !important;
   }
 
-  .dropdown-content-oille {
+  .dropdown-content-bfquh {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-oille > a {
+  .dropdown-content-bfquh > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-oille > a:hover {
+  .dropdown-content-bfquh > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .oillebody {
+  .bfquhbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .oillebody > a {
+  .bfquhbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .oille-title {
+  .bfquh-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .oille-spot {
+  .bfquh-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .oille-icon {
+  .bfquh-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .oille {
+  .bfquh {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .oilletitle {
+  .bfquhtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .oilletitlebody {
+  .bfquhtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .oilletitlebodytitle {
+  .bfquhtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .oilletitlebodylang {
+  .bfquhtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .oilletitlebodylang ul {
+  .bfquhtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .oilletitlebodylang li {
+  .bfquhtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .oillemenu {
+  .bfquhmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .oillemenulist {
+  .bfquhmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .oillemenubody {
+  .bfquhmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .oillemenulist {
+  .bfquhmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .oillemenulistbody {
+  .bfquhmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .oillemenu {
+    .bfquhmenu {
       overflow-x: auto;
     }
-    .oillemenulist {
+    .bfquhmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .oillebody {
+    .bfquhbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .oillebody {
+    .bfquhbody {
       flex-direction: column;
       text-align: center;
     }
@@ -317,21 +317,21 @@
   }
 
 
-  .b8msstitle {
+  .egxzztitle {
     font-size: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 500;
   }
-  .b8mssspot {
+  .egxzzspot {
     font-size: 16px;
     margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .b8mssbody {
+  .egxzzbody {
     background-color: #ddd;
     border-radius: 10px;
     padding: 10px;
@@ -339,7 +339,7 @@
     display: flex;
     flex-direction: column;
   }
-  .b8mssbutton {
+  .egxzzbutton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -350,7 +350,7 @@
     margin-top: 15px;
   }
   @media screen and (max-width: 1024px) {
-    .b8mssbody {
+    .egxzzbody {
       width: calc(100% - 40px);
       margin: 0px 10px 0px 10px;
     }
