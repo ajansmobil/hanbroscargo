@@ -1,9 +1,9 @@
 
-  .f7krimenulist-menu:hover .dropdown-content-f7kri {
+  .mbavymenulist-menu:hover .dropdown-content-mbavy {
     display: flex;
     flex-direction: column;
   }
-  .f7krimenulist-menu {
+  .mbavymenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .f7krimenulist-menu:hover {
+  .mbavymenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .f7krimenulist-menu:hover > a {
+  .mbavymenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .f7krimenulist-menu > a {
+  .mbavymenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-f7kri {
+  .dropdown-content-active-mbavy {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-f7kri > a {
+  .dropdown-content-active-mbavy > a {
     color: #000 !important;
   }
 
-  .dropdown-content-f7kri {
+  .dropdown-content-mbavy {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-f7kri > a {
+  .dropdown-content-mbavy > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-f7kri > a:hover {
+  .dropdown-content-mbavy > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .f7kribody {
+  .mbavybody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .f7kribody > a {
+  .mbavybody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .f7kri-title {
+  .mbavy-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .f7kri-spot {
+  .mbavy-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .f7kri-icon {
+  .mbavy-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .f7kri {
+  .mbavy {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .f7krititle {
+  .mbavytitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .f7krititlebody {
+  .mbavytitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .f7krititlebodytitle {
+  .mbavytitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .f7krititlebodylang {
+  .mbavytitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .f7krititlebodylang ul {
+  .mbavytitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .f7krititlebodylang li {
+  .mbavytitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .f7krimenu {
+  .mbavymenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .f7krimenulist {
+  .mbavymenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .f7krimenubody {
+  .mbavymenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .f7krimenulist {
+  .mbavymenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .f7krimenulistbody {
+  .mbavymenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .f7krimenu {
+    .mbavymenu {
       overflow-x: auto;
     }
-    .f7krimenulist {
+    .mbavymenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .f7kribody {
+    .mbavybody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .f7kribody {
+    .mbavybody {
       flex-direction: column;
       text-align: center;
     }
@@ -321,7 +321,7 @@
     justify-content: start;
   }
 
-  .ivyaq {
+  .aeds2 {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -329,7 +329,7 @@
     position: relative;
   }
 
-  .ivyaq-menu-btn {
+  .aeds2-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -341,11 +341,11 @@
     align-items: center;
   }
 
-  .ivyaq-menu-btn i {
+  .aeds2-menu-btn i {
     font-size: 20px;
   }
 
-  .ivyaq-menu {
+  .aeds2-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -356,28 +356,28 @@
     float: left;
   }
 
-  .ivyaq-desc {
+  .aeds2-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .ivyaq-menu > a {
+  .aeds2-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .ivyaq-menu > .active,
-  .ivyaq-menu > a:hover {
+  .aeds2-menu > .active,
+  .aeds2-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .ivyaq-desc-menu {
+  .aeds2-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -385,19 +385,19 @@
     border-radius: 5px;
   }
 
-  .ivyaq-desc-menu > div {
+  .aeds2-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .ivyaq-desc-body {
+  .aeds2-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .ivyaq-title {
+  .aeds2-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -410,7 +410,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .ivyaq-title::before {
+  .aeds2-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -425,44 +425,44 @@
     z-index: 1;
   }
 
-  .ivyaq-title span {
+  .aeds2-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .ivyaq-body {
+  .aeds2-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .ivyaq-img {
+  .aeds2-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .ivyaq-img img {
+  .aeds2-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .ivyaq-desc {
+    .aeds2-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .ivyaq-menu-btn {
+    .aeds2-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .ivyaq {
+    .aeds2 {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -471,17 +471,17 @@
       margin-top: 0px;
     }
 
-    .ivyaq-img {
+    .aeds2-img {
       width: 100%;
     }
 
-    .ivyaq-body {
+    .aeds2-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .ivyaq-menu {
+    .aeds2-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -489,11 +489,11 @@
       display: none;
     }
 
-    .ivyaq-menu.active {
+    .aeds2-menu.active {
       display: flex;
     }
 
-    .ivyaq-desc {
+    .aeds2-desc {
       width: 100% !important;
       order: 2;
     }

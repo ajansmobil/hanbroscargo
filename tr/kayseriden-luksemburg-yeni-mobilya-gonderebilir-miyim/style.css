@@ -1,9 +1,9 @@
 
-  .pe78cmenulist-menu:hover .dropdown-content-pe78c {
+  .yxjpomenulist-menu:hover .dropdown-content-yxjpo {
     display: flex;
     flex-direction: column;
   }
-  .pe78cmenulist-menu {
+  .yxjpomenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .pe78cmenulist-menu:hover {
+  .yxjpomenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .pe78cmenulist-menu:hover > a {
+  .yxjpomenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .pe78cmenulist-menu > a {
+  .yxjpomenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-pe78c {
+  .dropdown-content-active-yxjpo {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-pe78c > a {
+  .dropdown-content-active-yxjpo > a {
     color: #000 !important;
   }
 
-  .dropdown-content-pe78c {
+  .dropdown-content-yxjpo {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-pe78c > a {
+  .dropdown-content-yxjpo > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-pe78c > a:hover {
+  .dropdown-content-yxjpo > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .pe78cbody {
+  .yxjpobody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .pe78cbody > a {
+  .yxjpobody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .pe78c-title {
+  .yxjpo-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .pe78c-spot {
+  .yxjpo-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .pe78c-icon {
+  .yxjpo-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .pe78c {
+  .yxjpo {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .pe78ctitle {
+  .yxjpotitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .pe78ctitlebody {
+  .yxjpotitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .pe78ctitlebodytitle {
+  .yxjpotitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .pe78ctitlebodylang {
+  .yxjpotitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .pe78ctitlebodylang ul {
+  .yxjpotitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .pe78ctitlebodylang li {
+  .yxjpotitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .pe78cmenu {
+  .yxjpomenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .pe78cmenulist {
+  .yxjpomenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .pe78cmenubody {
+  .yxjpomenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .pe78cmenulist {
+  .yxjpomenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .pe78cmenulistbody {
+  .yxjpomenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .pe78cmenu {
+    .yxjpomenu {
       overflow-x: auto;
     }
-    .pe78cmenulist {
+    .yxjpomenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .pe78cbody {
+    .yxjpobody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .pe78cbody {
+    .yxjpobody {
       flex-direction: column;
       text-align: center;
     }
@@ -321,7 +321,7 @@
     justify-content: start;
   }
 
-  .rjgis {
+  .xrljh {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -329,7 +329,7 @@
     position: relative;
   }
 
-  .rjgis-menu-btn {
+  .xrljh-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -341,11 +341,11 @@
     align-items: center;
   }
 
-  .rjgis-menu-btn i {
+  .xrljh-menu-btn i {
     font-size: 20px;
   }
 
-  .rjgis-menu {
+  .xrljh-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -356,28 +356,28 @@
     float: left;
   }
 
-  .rjgis-desc {
+  .xrljh-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .rjgis-menu > a {
+  .xrljh-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .rjgis-menu > .active,
-  .rjgis-menu > a:hover {
+  .xrljh-menu > .active,
+  .xrljh-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .rjgis-desc-menu {
+  .xrljh-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -385,19 +385,19 @@
     border-radius: 5px;
   }
 
-  .rjgis-desc-menu > div {
+  .xrljh-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .rjgis-desc-body {
+  .xrljh-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .rjgis-title {
+  .xrljh-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -410,7 +410,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .rjgis-title::before {
+  .xrljh-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -425,44 +425,44 @@
     z-index: 1;
   }
 
-  .rjgis-title span {
+  .xrljh-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .rjgis-body {
+  .xrljh-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .rjgis-img {
+  .xrljh-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .rjgis-img img {
+  .xrljh-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .rjgis-desc {
+    .xrljh-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .rjgis-menu-btn {
+    .xrljh-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .rjgis {
+    .xrljh {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -471,17 +471,17 @@
       margin-top: 0px;
     }
 
-    .rjgis-img {
+    .xrljh-img {
       width: 100%;
     }
 
-    .rjgis-body {
+    .xrljh-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .rjgis-menu {
+    .xrljh-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -489,11 +489,11 @@
       display: none;
     }
 
-    .rjgis-menu.active {
+    .xrljh-menu.active {
       display: flex;
     }
 
-    .rjgis-desc {
+    .xrljh-desc {
       width: 100% !important;
       order: 2;
     }

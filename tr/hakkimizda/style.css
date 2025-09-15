@@ -1,9 +1,9 @@
 
-  .miadsmenulist-menu:hover .dropdown-content-miads {
+  .w4rudmenulist-menu:hover .dropdown-content-w4rud {
     display: flex;
     flex-direction: column;
   }
-  .miadsmenulist-menu {
+  .w4rudmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .miadsmenulist-menu:hover {
+  .w4rudmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .miadsmenulist-menu:hover > a {
+  .w4rudmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .miadsmenulist-menu > a {
+  .w4rudmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-miads {
+  .dropdown-content-active-w4rud {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-miads > a {
+  .dropdown-content-active-w4rud > a {
     color: #000 !important;
   }
 
-  .dropdown-content-miads {
+  .dropdown-content-w4rud {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-miads > a {
+  .dropdown-content-w4rud > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-miads > a:hover {
+  .dropdown-content-w4rud > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .miadsbody {
+  .w4rudbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .miadsbody > a {
+  .w4rudbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .miads-title {
+  .w4rud-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .miads-spot {
+  .w4rud-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .miads-icon {
+  .w4rud-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .miads {
+  .w4rud {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .miadstitle {
+  .w4rudtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .miadstitlebody {
+  .w4rudtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .miadstitlebodytitle {
+  .w4rudtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .miadstitlebodylang {
+  .w4rudtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .miadstitlebodylang ul {
+  .w4rudtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .miadstitlebodylang li {
+  .w4rudtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .miadsmenu {
+  .w4rudmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .miadsmenulist {
+  .w4rudmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .miadsmenubody {
+  .w4rudmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .miadsmenulist {
+  .w4rudmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .miadsmenulistbody {
+  .w4rudmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .miadsmenu {
+    .w4rudmenu {
       overflow-x: auto;
     }
-    .miadsmenulist {
+    .w4rudmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .miadsbody {
+    .w4rudbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .miadsbody {
+    .w4rudbody {
       flex-direction: column;
       text-align: center;
     }
@@ -321,7 +321,7 @@
     justify-content: start;
   }
 
-  .fm877 {
+  .rpv6c {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
@@ -329,7 +329,7 @@
     position: relative;
   }
 
-  .fm877-menu-btn {
+  .rpv6c-menu-btn {
     display: none;
     background-color: #000;
     padding: 10px 20px;
@@ -341,11 +341,11 @@
     align-items: center;
   }
 
-  .fm877-menu-btn i {
+  .rpv6c-menu-btn i {
     font-size: 20px;
   }
 
-  .fm877-menu {
+  .rpv6c-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -356,28 +356,28 @@
     float: left;
   }
 
-  .fm877-desc {
+  .rpv6c-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .fm877-menu > a {
+  .rpv6c-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .fm877-menu > .active,
-  .fm877-menu > a:hover {
+  .rpv6c-menu > .active,
+  .rpv6c-menu > a:hover {
     background-color: #000;
     color: #fff;
     display: flex;
   }
 
-  .fm877-desc-menu {
+  .rpv6c-desc-menu {
     width: 200px;
     background-color: #000;
     display: flex;
@@ -385,19 +385,19 @@
     border-radius: 5px;
   }
 
-  .fm877-desc-menu > div {
+  .rpv6c-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .fm877-desc-body {
+  .rpv6c-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .fm877-title {
+  .rpv6c-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -410,7 +410,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .fm877-title::before {
+  .rpv6c-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -425,44 +425,44 @@
     z-index: 1;
   }
 
-  .fm877-title span {
+  .rpv6c-title span {
     position: relative;
     z-index: 2;
     font-size: 32px;
   }
 
-  .fm877-body {
+  .rpv6c-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: left;
   }
 
-  .fm877-img {
+  .rpv6c-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .fm877-img img {
+  .rpv6c-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .fm877-desc {
+    .rpv6c-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .fm877-menu-btn {
+    .rpv6c-menu-btn {
       display: flex;
       width: calc(100% - 55px);
       margin-left: 5px;
     }
 
-    .fm877 {
+    .rpv6c {
       display: flex;
       flex-direction: column;
       width: 100%;
@@ -471,17 +471,17 @@
       margin-top: 0px;
     }
 
-    .fm877-img {
+    .rpv6c-img {
       width: 100%;
     }
 
-    .fm877-body {
+    .rpv6c-body {
       width: 100%;
       order: 3;
       padding: 10px;
     }
 
-    .fm877-menu {
+    .rpv6c-menu {
       width: 100%;
       float: none;
       flex-direction: column;
@@ -489,11 +489,11 @@
       display: none;
     }
 
-    .fm877-menu.active {
+    .rpv6c-menu.active {
       display: flex;
     }
 
-    .fm877-desc {
+    .rpv6c-desc {
       width: 100% !important;
       order: 2;
     }
