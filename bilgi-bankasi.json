@@ -1303,16 +1303,16 @@
     },
     {
       "name": {
-        "tr": "Mobilya Taşımacılığında Paketleme Hizmeti"
+        "tr": "Mobilya Paketleme Hizmeti"
       },
       "spot": {
-        "tr": "Mobilya taşımacılığında paketleme hizmeti ve detayları"
+        "tr": "Mobilya paketleme hizmeti ve detayları"
       },
       "status": "play",
       "category": "Paketleme ve Ambalaj",
       "id": "mobilya-paketleme-hizmeti",
       "url": "",
-      "path": "mobilya-tasimaciliginda-paketleme-hizmeti",
+      "path": "mobilya-paketleme-hizmeti",
       "index": 59,
       "img": "",
       "desing": {
@@ -1325,16 +1325,16 @@
     },
     {
       "name": {
-        "tr": "Araç Taşımacılığında Paketleme Hizmeti"
+        "tr": "Araç Paketleme Hizmeti"
       },
       "spot": {
-        "tr": "Araç taşımacılığında paketleme hizmeti ve detayları"
+        "tr": "Araç paketleme hizmeti ve detayları"
       },
       "status": "play",
       "category": "Paketleme ve Ambalaj",
       "id": "arac-paketleme-hizmeti",
       "url": "",
-      "path": "arac-tasimaciliginda-paketleme-hizmeti",
+      "path": "arac-paketleme-hizmeti",
       "index": 60,
       "img": "",
       "desing": {
@@ -1347,16 +1347,16 @@
     },
     {
       "name": {
-        "tr": "Ticari Eşya Taşımacılığında Paketleme Hizmeti"
+        "tr": "Ticari Eşya Paketleme Hizmeti"
       },
       "spot": {
-        "tr": "Ticari eşya taşımacılığında paketleme hizmeti ve detayları"
+        "tr": "Ticari eşya paketleme hizmeti ve detayları"
       },
       "status": "play",
       "category": "Paketleme ve Ambalaj",
       "id": "ticari-esya-paketleme-hizmeti",
       "url": "",
-      "path": "ticari-esya-tasimaciliginda-paketleme-hizmeti",
+      "path": "ticari-esya-paketleme-hizmeti",
       "index": 61,
       "img": "",
       "desing": {
@@ -1369,16 +1369,16 @@
     },
     {
       "name": {
-        "tr": "Kargo Taşımacılığında Paketleme Hizmeti"
+        "tr": "Kargo Paketleme Hizmeti"
       },
       "spot": {
-        "tr": "Kargo taşımacılığında paketleme hizmeti ve detayları"
+        "tr": "Kargo paketleme hizmeti ve detayları"
       },
       "status": "play",
       "category": "Paketleme ve Ambalaj",
       "id": "kargo-paketleme-hizmeti",
       "url": "",
-      "path": "kargo-tasimaciliginda-paketleme-hizmeti",
+      "path": "kargo-paketleme-hizmeti",
       "index": 62,
       "img": "",
       "desing": {
@@ -1457,16 +1457,16 @@
     },
     {
       "name": {
-        "tr": "Fransa'ya Ev Eşyası Taşımacılığı Hakkında Her Şey"
+        "tr": "Fransa'ya Ev Eşyası Taşımacılığı Rehberi"
       },
       "spot": {
-        "tr": "Fransa'ya ev eşyası taşımacılığı kapsamlı rehber"
+        "tr": "Fransa'ya ev eşyası taşımacılığı rehberi ve detayları"
       },
       "status": "play",
       "category": "Ülke Rehberleri",
       "id": "fransa-ev-esyasi-rehber",
       "url": "",
-      "path": "fransaya-ev-esyasi-tasimaciligi-hakkinda-her-sey",
+      "path": "fransaya-ev-esyasi-tasimaciligi-rehberi",
       "index": 66,
       "img": "",
       "desing": {
@@ -1479,16 +1479,16 @@
     },
     {
       "name": {
-        "tr": "Belçika'ya Ev Eşyası Taşımacılığı Hakkında Her Şey"
+        "tr": "Belçika'ya Ev Eşyası Taşımacılığı Rehberi"
       },
       "spot": {
-        "tr": "Belçika'ya ev eşyası taşımacılığı kapsamlı rehber"
+        "tr": "Belçika'ya ev eşyası taşımacılığı rehberi ve detayları"
       },
       "status": "play",
       "category": "Ülke Rehberleri",
       "id": "belcika-ev-esyasi-rehber",
       "url": "",
-      "path": "belcikaya-ev-esyasi-tasimaciligi-hakkinda-her-sey",
+      "path": "belcikaya-ev-esyasi-tasimaciligi-rehberi",
       "index": 67,
       "img": "",
       "desing": {
@@ -1501,16 +1501,16 @@
     },
     {
       "name": {
-        "tr": "Avusturya'ya Ev Eşyası Taşımacılığı Hakkında Her Şey"
+        "tr": "Avusturya'ya Ev Eşyası Taşımacılığı Rehberi"
       },
       "spot": {
-        "tr": "Avusturya'ya ev eşyası taşımacılığı kapsamlı rehber"
+        "tr": "Avusturya'ya ev eşyası taşımacılığı rehberi ve detayları"
       },
       "status": "play",
       "category": "Ülke Rehberleri",
       "id": "avusturya-ev-esyasi-rehber",
       "url": "",
-      "path": "avusturyaya-ev-esyasi-tasimaciligi-hakkinda-her-sey",
+      "path": "avusturyaya-ev-esyasi-tasimaciligi-rehberi",
       "index": 68,
       "img": "",
       "desing": {
@@ -1523,16 +1523,16 @@
     },
     {
       "name": {
-        "tr": "Lüksemburg'a Ev Eşyası Taşımacılığı Hakkında Her Şey"
+        "tr": "Lüksemburg'a Ev Eşyası Taşımacılığı Rehberi"
       },
       "spot": {
-        "tr": "Lüksemburg'a ev eşyası taşımacılığı kapsamlı rehber"
+        "tr": "Lüksemburg'a ev eşyası taşımacılığı rehberi ve detayları"
       },
       "status": "play",
       "category": "Ülke Rehberleri",
       "id": "luksemburg-ev-esyasi-rehber",
       "url": "",
-      "path": "luksemburg-ev-esyasi-tasimaciligi-hakkinda-her-sey",
+      "path": "luksemburg-ev-esyasi-tasimaciligi-rehberi",
       "index": 69,
       "img": "",
       "desing": {

@@ -1,9 +1,9 @@
 
-  .et8vnmenulist-menu:hover .dropdown-content-et8vn {
+  .kaw1gmenulist-menu:hover .dropdown-content-kaw1g {
     display: flex;
     flex-direction: column;
   }
-  .et8vnmenulist-menu {
+  .kaw1gmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .et8vnmenulist-menu:hover {
+  .kaw1gmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .et8vnmenulist-menu:hover > a {
+  .kaw1gmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .et8vnmenulist-menu > a {
+  .kaw1gmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-et8vn {
+  .dropdown-content-active-kaw1g {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-et8vn > a {
+  .dropdown-content-active-kaw1g > a {
     color: #000 !important;
   }
 
-  .dropdown-content-et8vn {
+  .dropdown-content-kaw1g {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-et8vn > a {
+  .dropdown-content-kaw1g > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-et8vn > a:hover {
+  .dropdown-content-kaw1g > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .et8vnbody {
+  .kaw1gbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .et8vnbody > a {
+  .kaw1gbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .et8vn-title {
+  .kaw1g-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .et8vn-spot {
+  .kaw1g-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .et8vn-icon {
+  .kaw1g-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .et8vn {
+  .kaw1g {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .et8vntitle {
+  .kaw1gtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .et8vntitlebody {
+  .kaw1gtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .et8vntitlebodytitle {
+  .kaw1gtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .et8vntitlebodylang {
+  .kaw1gtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .et8vntitlebodylang ul {
+  .kaw1gtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .et8vntitlebodylang li {
+  .kaw1gtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .et8vnmenu {
+  .kaw1gmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .et8vnmenulist {
+  .kaw1gmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .et8vnmenubody {
+  .kaw1gmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .et8vnmenulist {
+  .kaw1gmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .et8vnmenulistbody {
+  .kaw1gmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .et8vnmenu {
+    .kaw1gmenu {
       overflow-x: auto;
     }
-    .et8vnmenulist {
+    .kaw1gmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .et8vnbody {
+    .kaw1gbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .et8vnbody {
+    .kaw1gbody {
       flex-direction: column;
       text-align: center;
     }
@@ -317,11 +317,11 @@
   }
 
 
-  .bhf8ohead {
+  .xzec5head {
     width: var(--max);
   }
 
-  .bhf8o {
+  .xzec5 {
     margin-top: 20px;
     display: flex;
     align-items: center;
@@ -329,14 +329,14 @@
     flex-direction: column;
   }
 
-  .bhf8obody {
+  .xzec5body {
     width: var(--max);
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .bhf8obodyitem {
+  .xzec5bodyitem {
     background-color: #e0e0e0;
     border-radius: 5px;
     padding: 10px;
@@ -345,19 +345,19 @@
     gap: 2px;
   }
 
-  .bhf8obodyitemimg {
+  .xzec5bodyitemimg {
     aspect-ratio: 12 / 8;
     display: flex;
   }
 
-  .bhf8obodyitemimg img {
+  .xzec5bodyitemimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
   }
 
-  .bhf8obodyitemtitle {
+  .xzec5bodyitemtitle {
     border-radius: 3px;
     padding: 5px;
     margin-top: 5px;
@@ -366,14 +366,14 @@
     flex-direction: column;
   }
 
-  .bhf8obodyitemtitle > div {
+  .xzec5bodyitemtitle > div {
     display: flex;
     justify-content: space-between;
     border-width: 0px 0px 1px 0px;
     padding: 5px;
   }
 
-  .bhf8obodyitemspot {
+  .xzec5bodyitemspot {
     border-radius: 3px;
     height: 50px !important;
     padding: 5px;
@@ -384,14 +384,14 @@
     align-items: center;
   }
 
-  .bhf8obodyitemspot > div {
+  .xzec5bodyitemspot > div {
     width: 100%;
     color: #fff;
     font-size: 16px;
   }
 
   @media screen and (max-width: 1024px) {
-    .bhf8obody {
+    .xzec5body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(3, 1fr);
@@ -399,7 +399,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .bhf8obody {
+    .xzec5body {
       width: calc(100% - 10px);
       margin: 0px 5px 0px 5px;
       grid-template-columns: repeat(2, 1fr);

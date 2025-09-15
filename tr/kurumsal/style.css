@@ -1,9 +1,9 @@
 
-  .duegrmenulist-menu:hover .dropdown-content-duegr {
+  .bgnavmenulist-menu:hover .dropdown-content-bgnav {
     display: flex;
     flex-direction: column;
   }
-  .duegrmenulist-menu {
+  .bgnavmenulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .duegrmenulist-menu:hover {
+  .bgnavmenulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .duegrmenulist-menu:hover > a {
+  .bgnavmenulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .duegrmenulist-menu > a {
+  .bgnavmenulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-duegr {
+  .dropdown-content-active-bgnav {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-duegr > a {
+  .dropdown-content-active-bgnav > a {
     color: #000 !important;
   }
 
-  .dropdown-content-duegr {
+  .dropdown-content-bgnav {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-duegr > a {
+  .dropdown-content-bgnav > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-duegr > a:hover {
+  .dropdown-content-bgnav > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .duegrbody {
+  .bgnavbody {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .duegrbody > a {
+  .bgnavbody > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .duegr-title {
+  .bgnav-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .duegr-spot {
+  .bgnav-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .duegr-icon {
+  .bgnav-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .duegr {
+  .bgnav {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .duegrtitle {
+  .bgnavtitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .duegrtitlebody {
+  .bgnavtitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .duegrtitlebodytitle {
+  .bgnavtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .duegrtitlebodylang {
+  .bgnavtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .duegrtitlebodylang ul {
+  .bgnavtitlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .duegrtitlebodylang li {
+  .bgnavtitlebodylang li {
     position: relative;
     list-style: none;
   }
-  .duegrmenu {
+  .bgnavmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .duegrmenulist {
+  .bgnavmenulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .duegrmenubody {
+  .bgnavmenubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .duegrmenulist {
+  .bgnavmenulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .duegrmenulistbody {
+  .bgnavmenulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .duegrmenu {
+    .bgnavmenu {
       overflow-x: auto;
     }
-    .duegrmenulist {
+    .bgnavmenulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .duegrbody {
+    .bgnavbody {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .duegrbody {
+    .bgnavbody {
       flex-direction: column;
       text-align: center;
     }

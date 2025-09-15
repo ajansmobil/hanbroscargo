@@ -22,8 +22,7 @@
       "spot": {
         "tr": "Han Bros Cargo kurumsal - Uluslararası taşımacılıkta güvenilir çözüm ortağınız. Kurumsal değerlerimiz ve şirket kültürümüz."
       },
-      "desc": {},
-      "icon": "home"
+      "desc": {}
     },
     {
       "name": {
@@ -45,8 +44,7 @@
         "footer": []
       },
       "pathnext": "",
-      "desc": {},
-      "icon": "home"
+      "desc": {}
     },
     {
       "name": {
@@ -68,8 +66,7 @@
         "footer": []
       },
       "pathnext": "",
-      "desc": {},
-      "icon": "home"
+      "desc": {}
     },
     {
       "name": {
@@ -91,8 +88,7 @@
         "footer": []
       },
       "pathnext": "",
-      "desc": {},
-      "icon": "home"
+      "desc": {}
     },
     {
       "name": {
@@ -114,8 +110,7 @@
         "footer": []
       },
       "pathnext": "",
-      "desc": {},
-      "icon": "home"
+      "desc": {}
     }
   ],
   "index": 0,

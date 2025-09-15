@@ -131,6 +131,22 @@
       "modulestatus": {
         "body": true
       }
+    },
+    {
+      "name": "Teklif İste",
+      "path": "teklif-iste",
+      "desc": [],
+      "data": [],
+      "index": 7,
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "modulestatus": {
+        "body": true,
+        "img": true
+      }
     }
   ]
 }

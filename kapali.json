@@ -12,7 +12,9 @@
       "index": 0,
       "desing": {
         "header": [],
-        "body": [],
+        "body": [
+          "lc2yks"
+        ],
         "footer": []
       },
       "pathnext": "",
@@ -38,8 +40,7 @@
       "pathnext": "",
       "spot": {
         "tr": ""
-      },
-      "icon": "home"
+      }
     },
     {
       "name": {
@@ -61,8 +62,7 @@
       "pathnext": "",
       "spot": {
         "tr": ""
-      },
-      "icon": "home"
+      }
     }
   ],
   "modulestatus": {

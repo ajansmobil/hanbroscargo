@@ -1,9 +1,9 @@
 
-  .s6x0nmenulist-menu:hover .dropdown-content-s6x0n {
+  .zvsu3menulist-menu:hover .dropdown-content-zvsu3 {
     display: flex;
     flex-direction: column;
   }
-  .s6x0nmenulist-menu {
+  .zvsu3menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .s6x0nmenulist-menu:hover {
+  .zvsu3menulist-menu:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .s6x0nmenulist-menu:hover > a {
+  .zvsu3menulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .s6x0nmenulist-menu > a {
+  .zvsu3menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-s6x0n {
+  .dropdown-content-active-zvsu3 {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-s6x0n > a {
+  .dropdown-content-active-zvsu3 > a {
     color: #000 !important;
   }
 
-  .dropdown-content-s6x0n {
+  .dropdown-content-zvsu3 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-s6x0n > a {
+  .dropdown-content-zvsu3 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-s6x0n > a:hover {
+  .dropdown-content-zvsu3 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .s6x0nbody {
+  .zvsu3body {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .s6x0nbody > a {
+  .zvsu3body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .s6x0n-title {
+  .zvsu3-title {
     font-size: 16px;
     font-weight: 500;
     color: #006b64;
   }
-  .s6x0n-spot {
+  .zvsu3-spot {
     font-size: 16px;
     color: #006b64;
   }
-  .s6x0n-icon {
+  .zvsu3-icon {
     font-size: 36px !important;
     color: #006b64;
   }
-  .s6x0n {
+  .zvsu3 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .s6x0ntitle {
+  .zvsu3title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .s6x0ntitlebody {
+  .zvsu3titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .s6x0ntitlebodytitle {
+  .zvsu3titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .s6x0ntitlebodylang {
+  .zvsu3titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .s6x0ntitlebodylang ul {
+  .zvsu3titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .s6x0ntitlebodylang li {
+  .zvsu3titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .s6x0nmenu {
+  .zvsu3menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .s6x0nmenulist {
+  .zvsu3menulist {
     width: calc(100% - 20px);
     background-color: #006b64;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .s6x0nmenubody {
+  .zvsu3menubody {
     width: 100%;
     background-color:#006b64;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .s6x0nmenulist {
+  .zvsu3menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .s6x0nmenulistbody {
+  .zvsu3menulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .s6x0nmenu {
+    .zvsu3menu {
       overflow-x: auto;
     }
-    .s6x0nmenulist {
+    .zvsu3menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .s6x0nbody {
+    .zvsu3body {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .s6x0nbody {
+    .zvsu3body {
       flex-direction: column;
       text-align: center;
     }
@@ -313,6 +313,88 @@
       justify-content: center;
       padding: 14px 24px;
       font-size: 15px;
+    }
+  }
+
+
+  .q7hyg {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .q7hygbody {
+    width: var(--max);
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+    /* 3 columns */
+    justify-content: center;
+    /* Center all grid items */
+  }
+
+  .q7hygbodyitem {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition:
+      transform 0.3s ease,
+      box-shadow 0.3s ease;
+    /* Add ease for smoother transitions */
+    justify-content: center;
+    height: 100%;
+  }
+
+  .q7hygbodyitem:hover {
+    transform: scale(1.05);
+    /* Zoom effect */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  }
+
+  .q7hygbodyitemimg {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .q7hygbodyitemimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Cover the entire area */
+  }
+
+  .q7hygbodyitemtitle {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #444;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .q7hygbody {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .q7hygbody {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 

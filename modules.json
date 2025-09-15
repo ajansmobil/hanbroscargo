@@ -252,7 +252,8 @@
       "local": "footer",
       "category": "contact",
       "desing": {
-        "number": "905320000000",
+        "number": "905418504646",
+        "img": "logo.jpg",
         "name": {
           "tr": "Bize Ulaşın"
         },
@@ -395,6 +396,20 @@
       "category": "recruiter",
       "id": "j5z670",
       "index": 12
+    },
+    {
+      "index": 13,
+      "name": "Teklif İste",
+      "path": "page-list-2",
+      "local": "body",
+      "category": "page list",
+      "desing": {
+        "page": "teklif-iste",
+        "size": 5,
+        "category": "",
+        "aspect-ratio": "1 / 1"
+      },
+      "id": "lc2yks"
     }
   ]
 }
