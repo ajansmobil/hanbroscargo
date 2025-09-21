@@ -214,6 +214,9 @@
       "path": "slider",
       "local": "header",
       "category": "slider",
+      "desing": {
+        "time": 3000
+      },
       "data": [
         {
           "img": "ev.png"
@@ -240,7 +243,10 @@
       "local": "footer",
       "category": "footer",
       "desing": {
-        "color": "#006b64"
+        "bgcolor": "#006B65",
+        "color": "#fff",
+        "img": "imza.jpg",
+        "imgwidth": "350px"
       },
       "data": [],
       "id": "lzeoqf"
@@ -288,7 +294,7 @@
       "category": "page slider",
       "desing": {
         "page": "hizmetler",
-        "color": "#006b64",
+        "color": "#006B65",
         "name": {
           "tr": "Hizmetlerimiz"
         },
@@ -306,7 +312,7 @@
       "desing": {
         "page": "ulkeler",
         "color": "#ffffff",
-        "bgcolor": "#006b64",
+        "bgcolor": "#006B65",
         "height": "200px",
         "font-size": "18px",
         "opacity": "0.5",
@@ -324,7 +330,7 @@
       "category": "page slider",
       "desing": {
         "page": "bilgi-bankasi",
-        "color": "#0455d8",
+        "buttoncolor": "#cedc00",
         "name": {
           "tr": "Bilgi Bankası"
         },
@@ -362,7 +368,7 @@
       "category": "page list",
       "desing": {
         "page": "hizmetler",
-        "bgcolor": "#006b64",
+        "bgcolor": "#006B65",
         "color": "#fff",
         "height": "200px",
         "font-size": "18px",
@@ -380,11 +386,11 @@
       "local": "body",
       "category": "page",
       "desing": {
-        "height": "200",
+        "height": "100",
         "opacity": "0.5",
         "font-size": "32",
-        "backgroundcolor": "#000",
-        "menu-active": "#000",
+        "backgroundcolor": "#cedc00",
+        "menu-active": "#006B65",
         "category": "kurumsal"
       },
       "id": "my2y3e"
@@ -404,12 +410,57 @@
       "local": "body",
       "category": "page list",
       "desing": {
+        "bgcolor": "#fff",
+        "color": "#000",
         "page": "teklif-iste",
         "size": 5,
         "category": "",
         "aspect-ratio": "1 / 1"
       },
       "id": "lc2yks"
+    },
+    {
+      "index": 14,
+      "name": "Sosyal Media Slider",
+      "path": "social-matrix-1",
+      "local": "body",
+      "category": "social slider",
+      "desing": {
+        "name": {
+          "tr": "Sosyal Medyada Biz"
+        },
+        "padding": "25px 0px 25px 0px",
+        "margin": "0px 0px 0px 0px",
+        "color": "#fff",
+        "bgcolor": "#006B65"
+      },
+      "data": [
+        {
+          "img": "/src/icon/facebook.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/instagram.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/linkedin.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/youtube.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/whatsapp.png",
+          "externalUrl": ""
+        },
+        {
+          "img": "/src/icon/google-maps.png",
+          "externalUrl": ""
+        }
+      ],
+      "id": "kzjh3z"
     }
   ]
 }

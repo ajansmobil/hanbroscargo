@@ -5,7 +5,7 @@
   "data": [
     {
       "name": {
-        "tr": "Kurumsal"
+        "tr": "KURUMSAL"
       },
       "status": "play",
       "category": "",
@@ -26,7 +26,7 @@
     },
     {
       "name": {
-        "tr": "Ülkeler"
+        "tr": "ÜLKELER"
       },
       "status": "play",
       "category": "",
@@ -48,7 +48,7 @@
     },
     {
       "name": {
-        "tr": "Hizmetlerimiz"
+        "tr": "HİZMETLERİMİZ"
       },
       "status": "play",
       "category": "",
@@ -70,7 +70,7 @@
     },
     {
       "name": {
-        "tr": "Bilgi Bankası"
+        "tr": "BİLGİ BANKASI"
       },
       "status": "play",
       "category": "",
@@ -92,7 +92,7 @@
     },
     {
       "name": {
-        "tr": "İletişim"
+        "tr": "İLETİŞİM"
       },
       "status": "play",
       "category": "",
