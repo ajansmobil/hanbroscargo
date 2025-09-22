@@ -15,8 +15,8 @@
   <meta property="og:description" content="Han Bros Cargo, Almanya evden eve taşımacılık, Hollanda evden eve nakliyat, uluslararası kargo ve taşımacılık hizmetleri sunan güvenilir bir nakliye firmasıdır." />
   <meta property="og:image" content="https://hanbroscargo.com/img/icon.png" />
   <meta name="robots" content="index, follow" />
-  <link rel="stylesheet" href="/src/css.css?v=ovhpe" />
-  <link rel="shortcut icon" href="/img/icon.png?v=ovhpe" type="image/png" />
+  <link rel="stylesheet" href="/src/css.css?v=akyst" />
+  <link rel="shortcut icon" href="/img/icon.png?v=akyst" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -26,28 +26,28 @@
   <script src="/src/swiper-bundle.min.js"></script>
   
 
-  <script type="text/javascript" src="/src/firebase.js?v=ovhpe"></script>
-<link rel="stylesheet" href="style.css?v=ovhpe">
+  <script type="text/javascript" src="/src/firebase.js?v=akyst"></script>
+<link rel="stylesheet" href="style.css?v=akyst">
 </head>
 
 <body>
-  <div id="header"><div class="a72j9">
-  <div class="a72j9title">
-    <div class="a72j9titlebody">
-      <div class="a72j9titlebodytitle">
+  <div id="header"><div class="auef2">
+  <div class="auef2title">
+    <div class="auef2titlebody">
+      <div class="auef2titlebodytitle">
         Han Bros Cargo Web Sitemize Hoşgeldiniz
       </div>
-      <div class="a72j9titlebodylang">
+      <div class="auef2titlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"  alt="tr"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="a72j9body">
+  <div class="auef2body">
     <a href="/tr/"
       ><img
-        src="/img/logo.png?v=ovhpe"
+        src="/img/logo.png?v=akyst"
         class="module-logo"
         alt="Han Bros Cargo Logo"
     /></a> 
@@ -65,38 +65,38 @@
         </div>
       </div>
   </div>
-  <div class="a72j9menubody">
-    <div class="a72j9menu">
-      <div class="a72j9menulistbody">
-        <div class="a72j9menulist"><a class="a72j9menulist-menu" href="/tr/">Anasayfa </a><div class="a72j9menulist-menu " >
+  <div class="auef2menubody">
+    <div class="auef2menu">
+      <div class="auef2menulistbody">
+        <div class="auef2menulist"><a class="auef2menulist-menu" href="/tr/">Anasayfa </a><div class="auef2menulist-menu " >
 
       <a href="/tr/hakkimizda/">
        KURUMSAL
       </a>
      
                     </div>
-    <div class="a72j9menulist-menu " >
+    <div class="auef2menulist-menu " >
 
       <a href="/tr/ulkeler/">
        ÜLKELER
       </a>
      
                     </div>
-    <div class="a72j9menulist-menu " >
+    <div class="auef2menulist-menu " >
 
       <a href="/tr/hizmetlerimiz/">
        HİZMETLERİMİZ
       </a>
      
                     </div>
-    <div class="a72j9menulist-menu " >
+    <div class="auef2menulist-menu " >
 
       <a href="/tr/bilgi-bankasi/">
        BİLGİ BANKASI
       </a>
      
                     </div>
-    <div class="a72j9menulist-menu " >
+    <div class="auef2menulist-menu " >
 
       <a href="/tr/iletisim/">
        İLETİŞİM
@@ -109,8 +109,8 @@
   </div>
 </div>
 
-<div class="swiper-container ilnfx">
-  <div class="swiper-wrapper" id="ilnfx"><div class="swiper-slide"><img src="/img/mvh4ob/ev.png" /></div><div class="swiper-slide"><img src="/img/mvh4ob/kargo.png" /></div><div class="swiper-slide"><img src="/img/mvh4ob/mobilya.png" /></div><div class="swiper-slide"><img src="/img/mvh4ob/ticari.png" /></div><div class="swiper-slide"><img src="/img/mvh4ob/arac.png" /></div></div>
+<div class="swiper-container ikxvw">
+  <div class="swiper-wrapper" id="ikxvw"><div class="swiper-slide" data-href="/tr/"><img src="/img/mvh4ob/tr/ev.png" /></div><div class="swiper-slide" data-href="/tr/"><img src="/img/mvh4ob/tr/kargo.png" /></div><div class="swiper-slide" data-href="/tr/"><img src="/img/mvh4ob/tr/mobilya.png" /></div><div class="swiper-slide" data-href="/tr/"><img src="/img/mvh4ob/tr/ticari.png" /></div><div class="swiper-slide" data-href="/tr/"><img src="/img/mvh4ob/tr/arac.png" /></div></div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
@@ -119,7 +119,7 @@
 <script>
 
 setTimeout(() => {
-  var swiper = new Swiper(".ilnfx", {
+  var swiper = new Swiper(".ikxvw", {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -135,76 +135,87 @@ setTimeout(() => {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });}, 100);
+  });
+
+  // Slide tıklama eventi
+  document.querySelectorAll('.swiper-slide').forEach(slide => {
+    slide.addEventListener('click', function() {
+      const href = this.getAttribute('data-href');
+      if (href) {
+        window.location.href = href;
+      }
+    });
+  });
+}, 100);
 </script>
 </div>
-  <div id="content"><div class="sliderxh0k7j">
-  <div class="slider-h0k7jt-itle">Hizmetlerimiz</div>
-  <div class="h0k7j swiper-container">
+  <div id="content"><div class="sliderxc2gce">
+  <div class="slider-c2gcet-itle">Hizmetlerimiz</div>
+  <div class="c2gce swiper-container">
     <div class="swiper-wrapper">
     <a href="/tr/evden-eve-tasimacilik" class="swiper-slide">
-      <div class="swiper-h0k7j">
-        <img class="img-h0k7j" src="/page/ic2xbd0uch/j7uyj.jpg" alt="Evden Eve Taşımacılık" />
-        <div class="title-spot-h0k7j">
-          <div class="title-h0k7j">Evden Eve Taşımacılık</div>
-          <div class="spot-h0k7j">Uluslararası evden eve taşımacılık. Eşyalarınızı güvenle taşıyoruz. Sigortalı ve profesyonel hizmet.</div>
+      <div class="swiper-c2gce">
+        <img class="img-c2gce" src="/page/ic2xbd0uch/j7uyj.jpg" alt="Evden Eve Taşımacılık" />
+        <div class="title-spot-c2gce">
+          <div class="title-c2gce">Evden Eve Taşımacılık</div>
+          <div class="spot-c2gce">Uluslararası evden eve taşımacılık. Eşyalarınızı güvenle taşıyoruz. Sigortalı ve profesyonel hizmet.</div>
         </div>
-        <div class="button-h0k7j">Devamı...</div>
+        <div class="button-c2gce">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/arac-tasimaciligi" class="swiper-slide">
-      <div class="swiper-h0k7j">
-        <img class="img-h0k7j" src="/page/wco1sqi58n/qdg37.jpg" alt="Araç Taşımacılığı" />
-        <div class="title-spot-h0k7j">
-          <div class="title-h0k7j">Araç Taşımacılığı</div>
-          <div class="spot-h0k7j">Araç taşımacılığı hizmeti. Otomobil, motosiklet ve tüm araçlarınızı güvenle taşıyoruz.</div>
+      <div class="swiper-c2gce">
+        <img class="img-c2gce" src="/page/wco1sqi58n/qdg37.jpg" alt="Araç Taşımacılığı" />
+        <div class="title-spot-c2gce">
+          <div class="title-c2gce">Araç Taşımacılığı</div>
+          <div class="spot-c2gce">Araç taşımacılığı hizmeti. Otomobil, motosiklet ve tüm araçlarınızı güvenle taşıyoruz.</div>
         </div>
-        <div class="button-h0k7j">Devamı...</div>
+        <div class="button-c2gce">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/yeni-mobilya-tasimaciligi" class="swiper-slide">
-      <div class="swiper-h0k7j">
-        <img class="img-h0k7j" src="/page/k8k36eulrc/swxi9.jpg" alt="Yeni Mobilya Taşımacılığı" />
-        <div class="title-spot-h0k7j">
-          <div class="title-h0k7j">Yeni Mobilya Taşımacılığı</div>
-          <div class="spot-h0k7j">Yeni mobilya taşımacılığı. Türkiye'den yurt dışına mobilya gönderimi. Profesyonel paketleme ve güvenli taşıma.</div>
+      <div class="swiper-c2gce">
+        <img class="img-c2gce" src="/page/k8k36eulrc/swxi9.jpg" alt="Yeni Mobilya Taşımacılığı" />
+        <div class="title-spot-c2gce">
+          <div class="title-c2gce">Yeni Mobilya Taşımacılığı</div>
+          <div class="spot-c2gce">Yeni mobilya taşımacılığı. Türkiye'den yurt dışına mobilya gönderimi. Profesyonel paketleme ve güvenli taşıma.</div>
         </div>
-        <div class="button-h0k7j">Devamı...</div>
+        <div class="button-c2gce">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/taicari-esya-tasimaciligi" class="swiper-slide">
-      <div class="swiper-h0k7j">
-        <img class="img-h0k7j" src="/page/jg1oria5p8/kpxm0.jpg" alt="Ticari Eşya Taşımacılığı" />
-        <div class="title-spot-h0k7j">
-          <div class="title-h0k7j">Ticari Eşya Taşımacılığı</div>
-          <div class="spot-h0k7j">Ticari eşya taşımacılığı. Ticari yük ve eşyalarınızı güvenle taşıyoruz. Uluslararası ticari nakliyat.</div>
+      <div class="swiper-c2gce">
+        <img class="img-c2gce" src="/page/jg1oria5p8/kpxm0.jpg" alt="Ticari Eşya Taşımacılığı" />
+        <div class="title-spot-c2gce">
+          <div class="title-c2gce">Ticari Eşya Taşımacılığı</div>
+          <div class="spot-c2gce">Ticari eşya taşımacılığı. Ticari yük ve eşyalarınızı güvenle taşıyoruz. Uluslararası ticari nakliyat.</div>
         </div>
-        <div class="button-h0k7j">Devamı...</div>
+        <div class="button-c2gce">Devamı...</div>
       </div>
     </a>
   
     <a href="/tr/kargo-tasimaciligi" class="swiper-slide">
-      <div class="swiper-h0k7j">
-        <img class="img-h0k7j" src="/page/ddiaiud1q3/b572p.jpg" alt="Kargo Taşımacılığı" />
-        <div class="title-spot-h0k7j">
-          <div class="title-h0k7j">Kargo Taşımacılığı</div>
-          <div class="spot-h0k7j">Kargo taşımacılığı hizmeti. Koli ve kargo gönderim hizmeti. Uluslararası kargo nakliyat.</div>
+      <div class="swiper-c2gce">
+        <img class="img-c2gce" src="/page/ddiaiud1q3/b572p.jpg" alt="Kargo Taşımacılığı" />
+        <div class="title-spot-c2gce">
+          <div class="title-c2gce">Kargo Taşımacılığı</div>
+          <div class="spot-c2gce">Kargo taşımacılığı hizmeti. Koli ve kargo gönderim hizmeti. Uluslararası kargo nakliyat.</div>
         </div>
-        <div class="button-h0k7j">Devamı...</div>
+        <div class="button-c2gce">Devamı...</div>
       </div>
     </a>
   </div>
-    <div class="swiper-pagination-h0k7j"></div>
+    <div class="swiper-pagination-c2gce"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-h0k7j"></div>
-  <div class="swiper-button-prev swiper-button-prev-h0k7j"></div>
+  <div class="swiper-button-next swiper-button-next-c2gce"></div>
+  <div class="swiper-button-prev swiper-button-prev-c2gce"></div>
 </div>
 
 <script> setTimeout(() => {
-  new Swiper(".h0k7j", {
+  new Swiper(".c2gce", {
     slidesPerView: 2,
     simulateTouch: true,
     loop: true,
@@ -218,12 +229,12 @@ setTimeout(() => {
       disableOnInteraction: true,
     },
     pagination: {
-      el: ".swiper-pagination-h0k7j",
+      el: ".swiper-pagination-c2gce",
       clickable: true,
     },
     navigation: {
-      nextEl: ".swiper-button-next-h0k7j",
-      prevEl: ".swiper-button-prev-h0k7j",
+      nextEl: ".swiper-button-next-c2gce",
+      prevEl: ".swiper-button-prev-c2gce",
     },
   });}, 100);
 </script>
@@ -506,14 +517,14 @@ console.log('Metreküp hesaplama modülü yüklendi');
 
 
 
-<div class="sliderxpylht">
-  <div class="slider-pylhtt-itle">Bilgi Bankası</div>
-  <div class="pylht swiper-container">
+<div class="sliderxxhpnk">
+  <div class="slider-xhpnkt-itle">Bilgi Bankası</div>
+  <div class="xhpnk swiper-container">
     <div class="swiper-wrapper"><a href="/tr/turkiyeden-almanyaya-yeni-mobilya-gonderebilir-miyim" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Türkiye'den Almanya'ya yeni mobilya gönderebilir miyim?</div>
-          <div class="spot-pylht">Mobilya taşımacılığı hizmetlerimiz hakkında bilgi</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Türkiye'den Almanya'ya yeni mobilya gönderebilir miyim?</div>
+          <div class="spot-xhpnk">Mobilya taşımacılığı hizmetlerimiz hakkında bilgi</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -521,10 +532,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/turkiyeden-hollandaya-ev-esyalarimizi-gonderebilir-miyiz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Türkiye'den Hollanda'ya ev eşyalarımızı gönderebilir miyiz?</div>
-          <div class="spot-pylht">Hollanda'ya ev eşyası taşımacılığı</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Türkiye'den Hollanda'ya ev eşyalarımızı gönderebilir miyiz?</div>
+          <div class="spot-xhpnk">Hollanda'ya ev eşyası taşımacılığı</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -532,10 +543,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/esyalarimizi-depolarinizda-uzun-sureli-bekletebilir-misiniz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Eşyalarımızı depolarınızda uzun süreli bekletebilir misiniz?</div>
-          <div class="spot-pylht">Depolama hizmetlerimiz</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Eşyalarımızı depolarınızda uzun süreli bekletebilir misiniz?</div>
+          <div class="spot-xhpnk">Depolama hizmetlerimiz</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -543,10 +554,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/gumrukleme-islemleri-ile-de-siz-mi-ilgileniyorsunuz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Gümrükleme işlemleri ile de siz mi ilgileniyorsunuz?</div>
-          <div class="spot-pylht">Gümrükleme hizmetlerimiz</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Gümrükleme işlemleri ile de siz mi ilgileniyorsunuz?</div>
+          <div class="spot-xhpnk">Gümrükleme hizmetlerimiz</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -554,10 +565,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/esyalarimizin-kolilenmesini-de-siz-mi-yapiyorsunuz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Eşyalarımızın kolilenmesini de siz mi yapıyorsunuz?</div>
-          <div class="spot-pylht">Kolileme hizmetlerimiz</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Eşyalarımızın kolilenmesini de siz mi yapıyorsunuz?</div>
+          <div class="spot-xhpnk">Kolileme hizmetlerimiz</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -565,10 +576,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/ileri-tarihli-teslim-mumkun-mu" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">İleri tarihli teslim mümkün mü?</div>
-          <div class="spot-pylht">İleri tarihli teslimat hizmeti</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">İleri tarihli teslim mümkün mü?</div>
+          <div class="spot-xhpnk">İleri tarihli teslimat hizmeti</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -576,10 +587,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/adanadan-almanyaya-ev-esyalarimi-tasiyabilir-misiniz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Adana'dan Almanya'ya ev eşyalarımı taşıyabilir misiniz?</div>
-          <div class="spot-pylht">Adana'dan Almanya'ya ev eşyası taşımacılığı hizmeti</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Adana'dan Almanya'ya ev eşyalarımı taşıyabilir misiniz?</div>
+          <div class="spot-xhpnk">Adana'dan Almanya'ya ev eşyası taşımacılığı hizmeti</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -587,10 +598,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/istanbuldan-hollandaya-ev-esyalarimi-tasiyabilir-misiniz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">İstanbul'dan Hollanda'ya ev eşyalarımı taşıyabilir misiniz?</div>
-          <div class="spot-pylht">İstanbul'dan Hollanda'ya ev eşyası taşımacılığı hizmeti</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">İstanbul'dan Hollanda'ya ev eşyalarımı taşıyabilir misiniz?</div>
+          <div class="spot-xhpnk">İstanbul'dan Hollanda'ya ev eşyası taşımacılığı hizmeti</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -598,10 +609,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/ankaradan-ingiltereye-ev-esyalarimi-tasiyabilir-misiniz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">Ankara'dan İngiltere'ye ev eşyalarımı taşıyabilir misiniz?</div>
-          <div class="spot-pylht">Ankara'dan İngiltere'ye ev eşyası taşımacılığı hizmeti</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">Ankara'dan İngiltere'ye ev eşyalarımı taşıyabilir misiniz?</div>
+          <div class="spot-xhpnk">Ankara'dan İngiltere'ye ev eşyası taşımacılığı hizmeti</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -609,10 +620,10 @@ arrow_forward_ios
           </div>
         </div>
       </a><a href="/tr/izmir-fransaya-ev-esyalarimi-tasiyabilir-misiniz" class="swiper-slide">
-        <div class="swiper-pylht">
-          <div class="title-pylht">İzmir'den Fransa'ya ev eşyalarımı taşıyabilir misiniz?</div>
-          <div class="spot-pylht">İzmir'den Fransa'ya ev eşyası taşımacılığı hizmeti</div>
-           <div class="button-pylht">
+        <div class="swiper-xhpnk">
+          <div class="title-xhpnk">İzmir'den Fransa'ya ev eşyalarımı taşıyabilir misiniz?</div>
+          <div class="spot-xhpnk">İzmir'den Fransa'ya ev eşyası taşımacılığı hizmeti</div>
+           <div class="button-xhpnk">
           <div class="w100">Devamı...</div>
 <span class="material-symbols-outlined">
 arrow_forward_ios
@@ -620,10 +631,10 @@ arrow_forward_ios
           </div>
         </div>
       </a></div>
-    <div class="swiper-pagination-pylht"></div>
+    <div class="swiper-pagination-xhpnk"></div>
   </div>
-  <div class="swiper-button-next swiper-button-next-pylht"></div>
-  <div class="swiper-button-prev swiper-button-prev-pylht"></div>
+  <div class="swiper-button-next swiper-button-next-xhpnk"></div>
+  <div class="swiper-button-prev swiper-button-prev-xhpnk"></div>
 </div>
 
 <script>
@@ -642,7 +653,7 @@ arrow_forward_ios
 
 
 
-  new Swiper('.pylht', {
+  new Swiper('.xhpnk', {
     slidesPerView: 2,
     simulateTouch: true,
     loop: true,
@@ -654,44 +665,44 @@ arrow_forward_ios
       
     },
     pagination: {
-      el: '.swiper-pagination-pylht',
+      el: '.swiper-pagination-xhpnk',
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next-pylht',
-      prevEl: '.swiper-button-prev-pylht',
+      nextEl: '.swiper-button-next-xhpnk',
+      prevEl: '.swiper-button-prev-xhpnk',
     },
   });}, 100);
 </script>
-<div class="sliderxuw2mjbody">
-  <div class="sliderxuw2mj">
-    <div class="sliderxuw2mjtitle">Sosyal Medyada Biz</div>
-    <div class="uw2mj">
+<div class="sliderxo1h9kbody">
+  <div class="sliderxo1h9k">
+    <div class="sliderxo1h9ktitle">Sosyal Medyada Biz</div>
+    <div class="o1h9k">
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/facebook.png" class="uw2mj-media" />
+            <img src="/src/icon/facebook.png" class="o1h9k-media" />
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/instagram.png" class="uw2mj-media" />
+            <img src="/src/icon/instagram.png" class="o1h9k-media" />
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/linkedin.png" class="uw2mj-media" />
+            <img src="/src/icon/linkedin.png" class="o1h9k-media" />
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/youtube.png" class="uw2mj-media" />
+            <img src="/src/icon/youtube.png" class="o1h9k-media" />
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/whatsapp.png" class="uw2mj-media" />
+            <img src="/src/icon/whatsapp.png" class="o1h9k-media" />
         </a>
         <a href="undefined" target="_blank" style="text-decoration: none;">
-            <img src="/src/icon/google-maps.png" class="uw2mj-media" />
+            <img src="/src/icon/google-maps.png" class="o1h9k-media" />
         </a></div>
   </div>
 </div>
 
 </div>
-  <div id="footer"><div class="pz7d7-wa-advanced" id="pz7d7WaAdvanced">
-  <div class="pz7d7-wa-advanced-button" onclick="toggleModulexAdvanced()">
-    <div class="pz7d7-wa-advanced-icon">
+  <div id="footer"><div class="q8aqw-wa-advanced" id="q8aqwWaAdvanced">
+  <div class="q8aqw-wa-advanced-button" onclick="toggleModulexAdvanced()">
+    <div class="q8aqw-wa-advanced-icon">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path
           d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.478-1.318.13-.33.244-.73.244-1.088 0-.058 0-.144-.03-.215-.1-.172-2.434-1.39-2.678-1.39zm-2.908 7.593c-1.747 0-3.48-.53-4.942-1.49L7.793 24.41l1.132-3.337a8.955 8.955 0 0 1-1.72-5.272c0-4.955 4.04-8.995 8.997-8.995S25.2 10.845 25.2 15.8c0 4.958-4.04 8.998-8.998 8.998zm0-19.798c-5.96 0-10.8 4.842-10.8 10.8 0 1.964.53 3.898 1.546 5.574L5 27.176l5.974-1.92a10.807 10.807 0 0 0 16.03-9.455c0-5.958-4.842-10.8-10.802-10.8z"
@@ -699,39 +710,39 @@ arrow_forward_ios
         ></path>
       </svg>
     </div>
-    <div class="pz7d7-wa-advanced-pulse"></div>
+    <div class="q8aqw-wa-advanced-pulse"></div>
   </div>
 
-  <div class="pz7d7-wa-advanced-panel" id="pz7d7WaPanel">
-    <div class="pz7d7-wa-advanced-header">
-      <div class="pz7d7-wa-advanced-avatar">
-        <img src="/img/sy0l2u/logo.jpg?v=ovhpe" alt="Support Agent" />
-        <div class="pz7d7-wa-advanced-status online"></div>
+  <div class="q8aqw-wa-advanced-panel" id="q8aqwWaPanel">
+    <div class="q8aqw-wa-advanced-header">
+      <div class="q8aqw-wa-advanced-avatar">
+        <img src="/img/sy0l2u/logo.jpg?v=akyst" alt="Support Agent" />
+        <div class="q8aqw-wa-advanced-status online"></div>
       </div>
-      <div class="pz7d7-wa-advanced-info">
+      <div class="q8aqw-wa-advanced-info">
         <h4>Bize Ulaşın</h4>
         <p>Şu anda çevrimiçi</p>
       </div>
       <button
-        class="pz7d7-wa-advanced-close"
+        class="q8aqw-wa-advanced-close"
         onclick="closeModulexAdvanced()"
       >
         ×
       </button>
     </div>
 
-    <div class="pz7d7-wa-advanced-body">
-      <div class="pz7d7-wa-advanced-message">
+    <div class="q8aqw-wa-advanced-body">
+      <div class="q8aqw-wa-advanced-message">
         <p>Merhaba! Size nasıl yardımcı olabilirim?</p>
-        <span class="pz7d7-wa-advanced-time">Şimdi</span>
+        <span class="q8aqw-wa-advanced-time">Şimdi</span>
       </div>
     </div>
 
-    <div class="pz7d7-wa-advanced-footer">
+    <div class="q8aqw-wa-advanced-footer">
       <a
         href="https://wa.me/905418504646"
         target="_blank"
-        class="pz7d7-wa-advanced-chat-btn"
+        class="q8aqw-wa-advanced-chat-btn"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -755,12 +766,12 @@ arrow_forward_ios
 
 <script>
   function toggleModulexAdvanced() {
-    const panel = document.getElementById("pz7d7WaPanel");
+    const panel = document.getElementById("q8aqwWaPanel");
     panel.style.display = panel.style.display === "block" ? "none" : "block";
   }
 
   function closeModulexAdvanced() {
-    document.getElementById("pz7d7WaPanel").style.display = "none";
+    document.getElementById("q8aqwWaPanel").style.display = "none";
   }
 </script>
 <footer class="footer">
@@ -817,7 +828,7 @@ arrow_forward_ios
 
 
 
-<script type="text/javascript" src="/src/js.js?v=ovhpe"></script>
-<script src="/src/cookie.js?v=ovhpe"></script>
+<script type="text/javascript" src="/src/js.js?v=akyst"></script>
+<script src="/src/cookie.js?v=akyst"></script>
 
 </html>
