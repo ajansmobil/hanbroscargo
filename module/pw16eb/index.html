@@ -115,10 +115,7 @@ function addItem() {
             </div>
             
             <div class="metrekup-inputs-grid">
-                <div class="metrekup-input-group">
-                    <label class="metrekup-input-label">📦 Adet</label>
-                    <input type="number" id="quantity-${itemId}" placeholder="1" step="1" min="1" value="1" oninput="calculateItem(${itemId})" class="metrekup-input">
-                </div>
+               
                 <div class="metrekup-input-group">
                     <label class="metrekup-input-label">📏 Uzunluk (cm)</label>
                     <input type="number" id="length-${itemId}" placeholder="0" step="0.1" oninput="calculateItem(${itemId})" class="metrekup-input">
@@ -130,6 +127,11 @@ function addItem() {
                 <div class="metrekup-input-group">
                     <label class="metrekup-input-label">📏 Yükseklik (cm)</label>
                     <input type="number" id="height-${itemId}" placeholder="0" step="0.1" oninput="calculateItem(${itemId})" class="metrekup-input">
+                </div>
+
+                 <div class="metrekup-input-group">
+                    <label class="metrekup-input-label">📦 Adet</label>
+                    <input type="number" id="quantity-${itemId}" placeholder="1" step="1" min="1" value="1" oninput="calculateItem(${itemId})" class="metrekup-input">
                 </div>
                 <div class="metrekup-input-group">
                     <label class="metrekup-input-label">⚖️ Ağırlık (kg)</label>
