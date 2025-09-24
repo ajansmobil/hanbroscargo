@@ -1,9 +1,9 @@
 
-  .y36v7menulist-menu:hover .dropdown-content-y36v7 {
+  .aq611menulist-menu:hover .dropdown-content-aq611 {
     display: flex;
     flex-direction: column;
   }
-  .y36v7menulist-menu {
+  .aq611menulist-menu {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,35 +16,35 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .y36v7menulist-menu:hover {
-    background-color: #e0e0e0;
+  .aq611menulist-menu:hover {
+    background-color: #cedc00;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
-  .y36v7menulist-menu:hover > a {
+  .aq611menulist-menu:hover > a {
     color: #000 !important;
   }
 
-  .y36v7menulist-menu > a {
+  .aq611menulist-menu > a {
     display: block;
     width: 100%;
     height: 100%;
     color: #fff !important;
   }
 
-  .dropdown-content-active-y36v7 {
-    background-color: #e0e0e0;
+  .dropdown-content-active-aq611 {
+    background-color: #cedc00;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .dropdown-content-active-y36v7 > a {
+  .dropdown-content-active-aq611 > a {
     color: #000 !important;
   }
 
-  .dropdown-content-y36v7 {
+  .dropdown-content-aq611 {
     display: none;
     position: absolute;
     background-color: #333;
@@ -53,7 +53,7 @@
     margin-top: 10px;
     padding: 5px;
   }
-  .dropdown-content-y36v7 > a {
+  .dropdown-content-aq611 > a {
     width: inherit;
     padding: 10px;
     border: solid;
@@ -61,100 +61,100 @@
     text-align: left;
     color: #fff;
   }
-  .dropdown-content-y36v7 > a:hover {
+  .dropdown-content-aq611 > a:hover {
     background-color: #000;
   }
   .module-logo {
     width: 300px;
   }
-  .y36v7body {
+  .aq611body {
     width: var(--max);
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: space-between;
   }
-  .y36v7body > a {
+  .aq611body > a {
     display: flex;
     align-items: center;
     justify-content: left;
     position: relative;
     gap: 10px;
   }
-  .y36v7-title {
+  .aq611-title {
     font-size: 16px;
     font-weight: 500;
     color: #006B65;
   }
-  .y36v7-spot {
+  .aq611-spot {
     font-size: 16px;
     color: #006B65;
   }
-  .y36v7-icon {
+  .aq611-icon {
     font-size: 36px !important;
     color: #006B65;
   }
-  .y36v7 {
+  .aq611 {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .y36v7title {
+  .aq611title {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .y36v7titlebody {
+  .aq611titlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .y36v7titlebodytitle {
+  .aq611titlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .y36v7titlebodylang {
+  .aq611titlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .y36v7titlebodylang ul {
+  .aq611titlebodylang ul {
     display: flex;
     gap: 5px;
     position: relative;
   }
-  .y36v7titlebodylang li {
+  .aq611titlebodylang li {
     position: relative;
     list-style: none;
   }
-  .y36v7menu {
+  .aq611menu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
-  .y36v7menulist {
+  .aq611menulist {
     width: calc(100% - 20px);
     background-color: #006B65;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  .y36v7menubody {
+  .aq611menubody {
     width: 100%;
     background-color:#006B65;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .y36v7menulist {
+  .aq611menulist {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -163,7 +163,7 @@
     padding: 10px;
     /* overflow-x: auto; */
   }
-  .y36v7menulistbody {
+  .aq611menulistbody {
     width: 100%;
   }
   .header-actions {
@@ -254,16 +254,16 @@
     letter-spacing: 0.5px;
   }
   @media screen and (max-width: 1024px) {
-    .y36v7menu {
+    .aq611menu {
       overflow-x: auto;
     }
-    .y36v7menulist {
+    .aq611menulist {
       flex-direction: row;
     }
     .module-logo {
       width: 200px;
     }
-    .y36v7body {
+    .aq611body {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -292,7 +292,7 @@
   }
   
   @media screen and (max-width: 768px) {
-    .y36v7body {
+    .aq611body {
       flex-direction: column;
       text-align: center;
     }
@@ -317,7 +317,7 @@
   }
 
 
-  .xeq1q-wa-advanced {
+  .ovej7-wa-advanced {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -325,7 +325,7 @@
     font-family: "Poppins", sans-serif;
   }
 
-  .xeq1q-wa-advanced-button {
+  .ovej7-wa-advanced-button {
     position: relative;
     width: 64px;
     height: 64px;
@@ -339,18 +339,18 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .xeq1q-wa-advanced-button:hover {
+  .ovej7-wa-advanced-button:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
   }
 
-  .xeq1q-wa-advanced-icon svg {
+  .ovej7-wa-advanced-icon svg {
     width: 32px;
     height: 32px;
     fill: #fff;
   }
 
-  .xeq1q-wa-advanced-pulse {
+  .ovej7-wa-advanced-pulse {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -373,7 +373,7 @@
     }
   }
 
-  .xeq1q-wa-advanced-panel {
+  .ovej7-wa-advanced-panel {
     position: absolute;
     bottom: 80px;
     right: 0;
@@ -385,7 +385,7 @@
     overflow: hidden;
   }
 
-  .xeq1q-wa-advanced-header {
+  .ovej7-wa-advanced-header {
     background: #25D366;
     color: #fff;
     padding: 16px;
@@ -395,20 +395,20 @@
     position: relative;
   }
 
-  .xeq1q-wa-advanced-avatar {
+  .ovej7-wa-advanced-avatar {
     position: relative;
     width: 48px;
     height: 48px;
   }
 
-  .xeq1q-wa-advanced-avatar img {
+  .ovej7-wa-advanced-avatar img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
   }
 
-  .xeq1q-wa-advanced-status {
+  .ovej7-wa-advanced-status {
     position: absolute;
     bottom: 2px;
     right: 2px;
@@ -418,23 +418,23 @@
     border: 2px solid #fff;
   }
 
-  .xeq1q-wa-advanced-status.online {
+  .ovej7-wa-advanced-status.online {
     background: #4caf50;
   }
 
-  .xeq1q-wa-advanced-info h4 {
+  .ovej7-wa-advanced-info h4 {
     margin: 0;
     font-size: 16px;
     font-weight: 600;
   }
 
-  .xeq1q-wa-advanced-info p {
+  .ovej7-wa-advanced-info p {
     margin: 4px 0 0 0;
     font-size: 12px;
     opacity: 0.9;
   }
 
-  .xeq1q-wa-advanced-close {
+  .ovej7-wa-advanced-close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -446,16 +446,16 @@
     opacity: 0.8;
   }
 
-  .xeq1q-wa-advanced-close:hover {
+  .ovej7-wa-advanced-close:hover {
     opacity: 1;
   }
 
-  .xeq1q-wa-advanced-body {
+  .ovej7-wa-advanced-body {
     padding: 16px;
     background: #f8f9fa;
   }
 
-  .xeq1q-wa-advanced-message {
+  .ovej7-wa-advanced-message {
     background: #fff;
     padding: 12px 16px;
     border-radius: 8px;
@@ -466,29 +466,29 @@
     justify-content: flex-end;
   }
 
-  .xeq1q-wa-advanced-message p {
+  .ovej7-wa-advanced-message p {
     font-size: 14px;
     color: #333;
     text-align: right;
     margin: 0;
   }
 
-  .xeq1q-wa-advanced-time {
+  .ovej7-wa-advanced-time {
     font-size: 10px;
     color: #999;
     margin: 4px 0 0 0;
   }
 
-  .xeq1q-wa-advanced-footer {
+  .ovej7-wa-advanced-footer {
     padding: 16px;
   }
 
-  .xeq1q-wa-advanced-footer a {
+  .ovej7-wa-advanced-footer a {
     text-decoration: none;
     color: #fff !important;
   }
 
-  .xeq1q-wa-advanced-chat-btn {
+  .ovej7-wa-advanced-chat-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -504,12 +504,12 @@
     transition: transform 0.3s ease;
   }
 
-  .xeq1q-wa-advanced-chat-btn:hover {
+  .ovej7-wa-advanced-chat-btn:hover {
     transform: translateY(-2px);
   }
 
   @media (max-width: 768px) {
-    .xeq1q-wa-advanced-panel {
+    .ovej7-wa-advanced-panel {
       width: 280px;
       right: -10px;
     }
